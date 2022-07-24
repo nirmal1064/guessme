@@ -1,42 +1,45 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 .container {
-    margin: auto;
-    width: 40%;
-    border: 2px solid #600ae2;
-    padding: 20px;
-    display: grid;
-    justify-items: center;
+  margin: auto;
+  width: 80%;
+  border: 2px solid #600ae2;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
 }
 
-#number-input, #guess, #clear {
-    padding: 10px;
-    margin-bottom: 1rem;
-    min-width: 50%;
-    width: auto;
+#number-input,
+#guess,
+#clear {
+  padding: 10px;
+  margin-bottom: 1rem;
+  min-width: 50%;
+  width: auto;
 }
 
 #number-input {
-    margin-bottom: 1rem;
-    padding: 10px 0;
+  margin-bottom: 1rem;
+  padding: 10px 0;
 }
 
 .heading {
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .success {
-    color: green;
+  color: green;
 }
 
 .failure {
-    color: red;
+  color: red;
 }
 
 .result {
-    color: rgb(48, 13, 250);
+  color: rgb(48, 13, 250);
 }
